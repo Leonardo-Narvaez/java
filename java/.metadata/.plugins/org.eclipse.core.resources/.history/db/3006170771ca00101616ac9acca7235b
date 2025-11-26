@@ -1,0 +1,42 @@
+package com.krakedev;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		Producto productoA = new Producto();
+		Producto productoB = new Producto();
+		Producto productoC = new Producto();
+
+		productoA.nombre = "Aspirina";
+		productoA.descripcion = "Medicamento antiinflamatorio no esteroideo";
+		productoA.precio = 0.60;
+		productoA.stockActual = 3;
+
+		productoB.nombre = "Ibuprofeno";
+		productoB.descripcion = "Fármaco antiinflamatorio, analgésico y antipirético";
+		productoB.precio = 0.70;
+		productoB.stockActual = 7;
+
+		productoC.nombre = "Amoxicilina";
+		productoC.descripcion = "Antibiotico derivado de la penicilina";
+		productoC.precio = 1.0;
+		productoC.stockActual = 4;
+
+		System.out.println("Nombre ProductoA: " + productoA.nombre);
+		System.out.println("Descripcion ProductoA: " + productoA.descripcion);
+		System.out.println("Precio ProductoA: " + productoA.precio);
+		System.out.println("Precio ProdcutoA: " + productoA.stockActual);
+		System.out.println("_XX_X_X_X__XX_X_X_X_X_X_X_X_");
+		System.out.println("Nombre ProductoB: " + productoB.nombre);
+		System.out.println("Descripcion ProductoB: " + productoB.descripcion);
+		System.out.println("Precio ProductoB: " + productoB.precio);
+		System.out.println("Precio ProdcutoB: " + productoB.stockActual);
+		System.out.println("_XX_X_X_X__XX_X_X_X_X_X_X_X_");
+		System.out.println("Nombre ProductoC: " + productoC.nombre);
+		System.out.println("Descripcion ProductoC: " + productoC.descripcion);
+		System.out.println("Precio ProductoC: " + productoC.precio);
+		System.out.println("Precio ProdcutoC: " + productoC.stockActual);
+
+	}
+
+}

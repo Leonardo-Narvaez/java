@@ -5,21 +5,21 @@ public class TestAuto {
 	public static void main(String[] args) {
 		Auto auto1 = new Auto();
 		Auto auto2 = new Auto();
-		auto1.marca = "Nissan";
-		auto1.anio = 1998;
-		auto1.precio = 45000;
+		auto1.setMarca("Nissan");
+		auto1.setAnio(1998);
+		auto1.setPrecio(45000);
 
-		auto2.marca = "Ford";
-		auto2.anio = 1967;
-		auto2.precio = 60000;
+		auto2.setMarca("Ford");
+		auto2.setAnio(1967);
+		auto2.setPrecio(60000);
 		
-		System.out.println("Marca auto1: "+auto1.marca);
-		System.out.println("Año auto1: "+auto1.anio);
-		System.out.println("Precio auto1: "+auto1.precio);
+		System.out.println("Marca auto1: "+auto1.getMarca());
+		System.out.println("Año auto1: "+auto1.getAnio());
+		System.out.println("Precio auto1: "+auto1.getPrecio());
 		System.out.println("XXXXXXXXXXXXXXXXXXXXXXX");
-		System.out.println("Marca auto2: "+auto2.marca);
-		System.out.println("Año auto2: "+auto2.anio);
-		System.out.println("Precio auto2: "+auto2.precio);
+		System.out.println("Marca auto2: "+auto2.getMarca());
+		System.out.println("Año auto2: "+auto2.getAnio());
+		System.out.println("Precio auto2: "+auto2.getPrecio());
 
 	}
 
