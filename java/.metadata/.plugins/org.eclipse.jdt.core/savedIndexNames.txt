@@ -1,9 +1,0 @@
-INDEX VERSION 1.134+C:\Users\lnmq1\Modulos_programacion\Programacion M2\java\java\.metadata\.plugins\org.eclipse.jdt.core
-1828026965.index
-2461555211.index
-1549854921.index
-2524534578.index
-1865797976.index
-2830911288.index
-3230351161.index
-476202751.index
